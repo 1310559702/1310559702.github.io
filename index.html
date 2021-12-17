@@ -1,0 +1,230 @@
+<!DOCTYPE html><html lang="zh-CN (简体中文）" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>星野 - 星野之鹰</title><meta name="keywords" content="星野之鹰的技术博客"><meta name="author" content="星野之鹰"><meta name="copyright" content="星野之鹰"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="用什么珍贵的东西,换回了空白">
+<meta property="og:type" content="website">
+<meta property="og:title" content="星野">
+<meta property="og:url" content="http://example.com/index.html">
+<meta property="og:site_name" content="星野">
+<meta property="og:description" content="用什么珍贵的东西,换回了空白">
+<meta property="og:locale">
+<meta property="og:image" content="http://example.com/img/num.jpg">
+<meta property="article:author" content="星野之鹰">
+<meta property="article:tag" content="星野之鹰的技术博客">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/img/num.jpg"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://example.com/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: {"defaultEncoding":1,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: 'Copy successfully',
+    error: 'Copy error',
+    noSupport: 'The browser does not support'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: 'days',
+  date_suffix: {
+    just: 'Just',
+    min: 'minutes ago',
+    hour: 'hours ago',
+    day: 'days ago',
+    month: 'months ago'
+  },
+  copyright: {"limitCount":50,"languages":{"author":"Author: 星野之鹰","link":"Link: ","source":"Source: 星野","info":"Copyright is owned by the author. For commercial reprints, please contact the author for authorization. For non-commercial reprints, please indicate the source."}},
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    jQuery: 'https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js',
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
+    },
+    fancybox: {
+      js: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isanchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '星野',
+  isPost: false,
+  isHome: true,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2021-12-17 14:30:04'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const fontSizeVal = saveToLocal.get('global-font-size')
+    if (fontSizeVal !== undefined) {
+      document.documentElement.style.setProperty('--global-font-size', fontSizeVal + 'px')
+    }
+    })(window)</script><meta name="generator" content="Hexo 5.4.0"></head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="spinner-box"><div class="configure-border-1"><div class="configure-core"></div></div><div class="configure-border-2"><div class="configure-core"></div></div><div class="loading-word">Loading...</div></div></div><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="author-avatar"><img class="avatar-img" src="/img/num.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data"><div class="data-item is-center"><div class="data-item-link"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">5</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/tags/"><div class="headline">Tags</div><div class="length-num">2</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/categories/"><div class="headline">Categories</div><div class="length-num">2</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fa fa-heartbeat"></i><span> 清单</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/Gallery/"><i class="fa-fw fas fa-images"></i><span> 照片</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li><li><a class="site-page child" href="/books/"><i class="fa-fw fa fa-comments"></i><span> 书单</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header" style="background: transparent"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">星野</a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fa fa-heartbeat"></i><span> 清单</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/Gallery/"><i class="fa-fw fas fa-images"></i><span> 照片</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li><li><a class="site-page child" href="/books/"><i class="fa-fw fa fa-comments"></i><span> 书单</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">星野</h1><div id="site-subtitle"><span id="subtitle"></span></div><div id="site_social_icons"><a class="social-icon" href="https://github.com/1310559702" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:kai.zhou.work@outlook.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a><a class="social-icon" href="http://wpa.qq.com/msgrd?v=3&amp;uin=1310559702&amp;site=qq&amp;menu=yes" target="_blank" title="qq"><i class="fab fa-qq"></i></a></div></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="post_cover left_radius"><a href="/2021/10/27/Redis%E7%BC%93%E5%AD%98%E9%9B%AA%E5%B4%A9%EF%BC%8C%E7%BC%93%E5%AD%98%E7%A9%BF%E9%80%8F%EF%BC%8C%E7%BC%93%E5%AD%98%E5%87%BB%E7%A9%BF%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/" title="Redis缓存雪崩，缓存穿透，缓存击穿的解决方法">     <img class="post_bg" src="https://i.loli.net/2021/10/21/a5ZAdGsbIQjB2YM.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Redis缓存雪崩，缓存穿透，缓存击穿的解决方法"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/10/27/Redis%E7%BC%93%E5%AD%98%E9%9B%AA%E5%B4%A9%EF%BC%8C%E7%BC%93%E5%AD%98%E7%A9%BF%E9%80%8F%EF%BC%8C%E7%BC%93%E5%AD%98%E5%87%BB%E7%A9%BF%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/" title="Redis缓存雪崩，缓存穿透，缓存击穿的解决方法">Redis缓存雪崩，缓存穿透，缓存击穿的解决方法</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2021-10-27T14:36:18.389Z" title="Created 2021-10-27 22:36:18">2021-10-27</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Redis/">Redis</a></span></div><div class="content">Redis缓存雪崩，缓存穿透，缓存击穿的解决方法缓存穿透描述：访问一个redis缓存和数据都不存在的key，此时请求会直接打到数据库上，流量大的时候数据库可能会被打挂。此时缓存就好像被“穿透”一样起不到任何作用。
+解决方案：
+1.布隆过滤器。使用布隆过滤器存储所有可能会访问的key，不存在的直接过滤，存在的key则再进一步查询缓存或数据库。
+2.缓存空值。可以将访问不到的key写入缓存，根据业务逻辑设计过期时间。
+3.接口校验。一般出现大量访问不存在key的情况主要可能是遭受了非法攻击。可以在最外层做一层校验：用户鉴权、数据合法校验，例如商品查询中，商品的ID是正整数，则可以直接对非正整数直接过滤等等。
+缓存击穿描述：某一个在缓存中的热点key，在缓存过期的一瞬间有大量的请求打进来，这些请求最终会打到数据库上，造成数据库瞬时请求量大、压力骤增，甚至可能打垮数据库。
+解决方案：
+1.加互斥锁。在并发的多个请求中，只有第一个请求线程能拿到锁并执行数据库查询操作，其他线程拿不到锁就阻塞等待，等到第一个线程将数据写入缓存后，剩下的线程按顺序直接走缓存。推荐采用Redis分布式锁，可以保证只有一 ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/2021/10/17/Redis%E6%8C%81%E4%B9%85%E5%8C%96/" title="Redis持久化">     <img class="post_bg" src="https://i.loli.net/2021/10/21/a5ZAdGsbIQjB2YM.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Redis持久化"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/10/17/Redis%E6%8C%81%E4%B9%85%E5%8C%96/" title="Redis持久化">Redis持久化</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2021-10-17T05:10:32.567Z" title="Created 2021-10-17 13:10:32">2021-10-17</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Redis/">Redis</a></span></div><div class="content">Redis的持久化机制(RDB、AOF)1. 为什么需要持久化？因为Redis是内存数据库，它将自己的数据存储在内存里面，一旦Redis服务器进程退出或者运行Redis服务器的计算机停机，Redis服务器中的数据就会丢失。
+为了避免数据丢失，Redis提供了了持久化机制，将存储在内存中的数据保存到磁盘中，用于在Redis服务器进程退出或者运行Redis服务器的计算机停机导致数据丢失时，可以快速的恢复之前Redis存储在内存中的数据。
+Redis提供了2种持久化方式，分别为RDB持久化和AOF持久化
+2. RDB持久化RDB持久化是将某个时间点上Redis的数据保存到一个RDB文件中。该文件是一个经过压缩的二进制文件，通过该文件可以还原生成RDB文件时Redis中的数据，基于RDB持久化的上述性质，所以RDB持久化也叫做快照持久化。快照是数据存储的某一时刻的状态记录。
+2.1 创建RDB文件Redis提供了SAVE和GSAVE命令来创建RDB文件，SAVE和GSAVE。
+SAVE命令会阻塞Redis服务器进程，直到RDB文件创建完毕为止，期间服务器不能处理任何命令请求。
+BGSAVE命令 ...</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="/2021/08/19/Redis%E7%AE%80%E4%BB%8B/" title="Redis简介">     <img class="post_bg" src="https://i.loli.net/2021/10/21/a5ZAdGsbIQjB2YM.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Redis简介"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/08/19/Redis%E7%AE%80%E4%BB%8B/" title="Redis简介">Redis简介</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2021-08-19T15:02:40.284Z" title="Created 2021-08-19 23:02:40">2021-08-19</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Redis/">Redis</a></span></div><div class="content">什么是RedisRedis(Remote Dictionary Server) 是一个使用 C 语言编写的，开源的高性能非关系型的键值对数据库。
+Redis 可以存储键和五种不同类型的值之间的映射。键的类型只能为字符串，值支持五种数据类型：字符串、列表、集合、散列表、有序集合。
+与传统数据库不同的是 Redis 的数据是存在内存中的，所以读写速度非常快，因此 redis 被广泛应用于缓存方向，每秒可以处理超过 10万次读写操作，是已知性能最快的键值对。另外，Redis 也经常用来做分布式锁。除此之外，Redis 支持事务 、持久化、LUA脚本、LRU驱动事件、多种集群方案。
+Redus为什么是单线程
+Redis有哪些优缺点优点
+读写性能优异， Redis能读的速度是11万次/s，写的速度是8.1万次/s。
+支持数据持久化，支持AOF和RDB两种持久化方式。
+支持事务，Redis的所有操作都是原子性的，同时Redis还支持对几个操作合并后的原子性执行。
+数据结构丰富，除了支持string类型的value外还支持hash、set、zset、list等数据结构。
+支持主从复制，主机会自动将数 ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/2021/06/23/JAVA%E7%9A%84%E7%89%B9%E7%82%B9/" title="JAVA的特点">     <img class="post_bg" src="https://i.loli.net/2021/06/23/3y7haldcxCrKtLQ.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="JAVA的特点"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/06/23/JAVA%E7%9A%84%E7%89%B9%E7%82%B9/" title="JAVA的特点">JAVA的特点</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2021-06-23T05:24:32.345Z" title="Created 2021-06-23 13:24:32">2021-06-23</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/JAVA%E5%9F%BA%E7%A1%80/">JAVA基础</a></span></div><div class="content">
+JAVA是跨平台的Java程序的跨平台主要是指字节码文件可以在任何具有Java虚拟机的计算机或者电子设备上运行，Java虚拟机中的Java解释器负责将字节码文件解释成为特定的机器码进行运行。
+JAVA是简单的不再有#include 和#define 等预处理功能,
+不再有指针、不再有多重继承,
+不再有goto,
+不再有操作符重载(Operatior Overloading),
+不再有全局变量,
+不再有手动内存管理
+JAVA是安全的Java取消了强大但又危险的指针。由于指针能够进行移动运算，指针可随便指向一个内存区域，而不管这个区域是否可用，这样做是危险的，因为原来这个内存地址可能存储着重要数据或者是其他程序运行所占用的内存， 并且使用指针也容易数组越界。Java提供了自动内存管理机制，由垃圾回收器在后台自动回收。
+Java在字节码的传输过程中使用了公开密钥加密机制(PKC)。而在运行环境提供了四级安全性保障机制：节码校验器 - 类装载器 - 运行时内存布局 - 文件访问限制。
+JAVA是完全面向对象的Java和C++都是面向对象语言。
+也就是说，它们都能够实现面向对象思想（封装，继承 ...</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="/2021/06/23/%E8%B7%A8%E5%B9%B3%E5%8F%B0%E5%8E%9F%E7%90%86/" title="JAVA跨平台原理">     <img class="post_bg" src="https://i.loli.net/2021/06/22/alNPYfFtBIMV8SJ.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="JAVA跨平台原理"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/06/23/%E8%B7%A8%E5%B9%B3%E5%8F%B0%E5%8E%9F%E7%90%86/" title="JAVA跨平台原理">JAVA跨平台原理</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2021-06-23T05:17:30.664Z" title="Created 2021-06-23 13:17:30">2021-06-23</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/JAVA%E5%9F%BA%E7%A1%80/">JAVA基础</a></span></div><div class="content">
+JAVA为什么能够流行互联网上的电脑硬件不同，软件环境差异较大，需要一个能够跨平台的语言。
+JAVA核心优势：跨平台
+JVM虚拟机JVM（JAVA VIRTUAL MACHINE）是一种规范，可以使用软件来实现，也可以使用硬件来实现，就是一个虚拟的用于执行bytecodes字节码的计算机。他也定义了指令集、寄存器集、结构栈、垃圾收集堆、内存区域。
+JVM是指在一台计算机上由软件或硬件模拟的计算机，它类似一个小巧而高效的CPU。
+Java虚拟机是Java最核心技术，也是跨平台的基础。可以使用软件来实现,例如：IBM, SUN, BEA等，当然你也可以自己写一个JVM,可以使用硬件来实现，例如：比如SUM/Intel公司正在研发的java芯片
+JVM和JAVA跨平台特性计算机的高级编程语言类型一般为: 编译型和解释型。而Java语言是两种类型的结合。
+编译型：先把整个英文的文章翻译成中文，然后再阅读。
+优点：阅读的时候效率高。
+缺点：阅读之前需要等待英语老师翻译好英文的文章。
+解释型：英语老师逐行给我们翻译，也就是阅读一行翻译一行优点：阅读之前无需等待
+缺点：阅读的时候效率低常见java ...</div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="card-info-avatar is-center"><img class="avatar-img" src="/img/num.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/><div class="author-info__name">星野之鹰</div><div class="author-info__description">用什么珍贵的东西,换回了空白</div></div><div class="card-info-data"><div class="card-info-data-item is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">5</div></a></div><div class="card-info-data-item is-center"><a href="/tags/"><div class="headline">Tags</div><div class="length-num">2</div></a></div><div class="card-info-data-item is-center"><a href="/categories/"><div class="headline">Categories</div><div class="length-num">2</div></a></div></div><a class="button--animated" id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Github</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/1310559702" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:kai.zhou.work@outlook.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a><a class="social-icon" href="http://wpa.qq.com/msgrd?v=3&amp;uin=1310559702&amp;site=qq&amp;menu=yes" target="_blank" title="qq"><i class="fab fa-qq"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn card-announcement-animation"></i><span>Announcementse</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>Recent Post</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2021/10/27/Redis%E7%BC%93%E5%AD%98%E9%9B%AA%E5%B4%A9%EF%BC%8C%E7%BC%93%E5%AD%98%E7%A9%BF%E9%80%8F%EF%BC%8C%E7%BC%93%E5%AD%98%E5%87%BB%E7%A9%BF%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/" title="Redis缓存雪崩，缓存穿透，缓存击穿的解决方法"><img src="https://i.loli.net/2021/10/21/a5ZAdGsbIQjB2YM.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Redis缓存雪崩，缓存穿透，缓存击穿的解决方法"/></a><div class="content"><a class="title" href="/2021/10/27/Redis%E7%BC%93%E5%AD%98%E9%9B%AA%E5%B4%A9%EF%BC%8C%E7%BC%93%E5%AD%98%E7%A9%BF%E9%80%8F%EF%BC%8C%E7%BC%93%E5%AD%98%E5%87%BB%E7%A9%BF%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/" title="Redis缓存雪崩，缓存穿透，缓存击穿的解决方法">Redis缓存雪崩，缓存穿透，缓存击穿的解决方法</a><time datetime="2021-10-27T14:36:18.389Z" title="Created 2021-10-27 22:36:18">2021-10-27</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/10/17/Redis%E6%8C%81%E4%B9%85%E5%8C%96/" title="Redis持久化"><img src="https://i.loli.net/2021/10/21/a5ZAdGsbIQjB2YM.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Redis持久化"/></a><div class="content"><a class="title" href="/2021/10/17/Redis%E6%8C%81%E4%B9%85%E5%8C%96/" title="Redis持久化">Redis持久化</a><time datetime="2021-10-17T05:10:32.567Z" title="Created 2021-10-17 13:10:32">2021-10-17</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/08/19/Redis%E7%AE%80%E4%BB%8B/" title="Redis简介"><img src="https://i.loli.net/2021/10/21/a5ZAdGsbIQjB2YM.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Redis简介"/></a><div class="content"><a class="title" href="/2021/08/19/Redis%E7%AE%80%E4%BB%8B/" title="Redis简介">Redis简介</a><time datetime="2021-08-19T15:02:40.284Z" title="Created 2021-08-19 23:02:40">2021-08-19</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/06/23/JAVA%E7%9A%84%E7%89%B9%E7%82%B9/" title="JAVA的特点"><img src="https://i.loli.net/2021/06/23/3y7haldcxCrKtLQ.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="JAVA的特点"/></a><div class="content"><a class="title" href="/2021/06/23/JAVA%E7%9A%84%E7%89%B9%E7%82%B9/" title="JAVA的特点">JAVA的特点</a><time datetime="2021-06-23T05:24:32.345Z" title="Created 2021-06-23 13:24:32">2021-06-23</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/06/23/%E8%B7%A8%E5%B9%B3%E5%8F%B0%E5%8E%9F%E7%90%86/" title="JAVA跨平台原理"><img src="https://i.loli.net/2021/06/22/alNPYfFtBIMV8SJ.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="JAVA跨平台原理"/></a><div class="content"><a class="title" href="/2021/06/23/%E8%B7%A8%E5%B9%B3%E5%8F%B0%E5%8E%9F%E7%90%86/" title="JAVA跨平台原理">JAVA跨平台原理</a><time datetime="2021-06-23T05:17:30.664Z" title="Created 2021-06-23 13:17:30">2021-06-23</time></div></div></div></div><div class="card-widget card-categories"><div class="item-headline">
+            <i class="fas fa-folder-open"></i>
+            <span>Categories</span>
+            
+            </div>
+            <ul class="card-category-list" id="aside-cat-list">
+            <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/JAVA%E5%9F%BA%E7%A1%80/"><span class="card-category-list-name">JAVA基础</span><span class="card-category-list-count">2</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Redis/"><span class="card-category-list-name">Redis</span><span class="card-category-list-count">3</span></a></li>
+            </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>Tags</span></div><div class="card-tag-cloud"><a href="/tags/Redis/" style="font-size: 1.5em; color: #99a9bf">Redis</a> <a href="/tags/%E8%B7%A8%E5%B9%B3%E5%8F%B0/" style="font-size: 1.1em; color: #999">跨平台</a></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>Archives</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2021/10/"><span class="card-archive-list-date">October 2021</span><span class="card-archive-list-count">2</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2021/08/"><span class="card-archive-list-date">August 2021</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2021/06/"><span class="card-archive-list-date">June 2021</span><span class="card-archive-list-count">2</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>Info</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">Article :</div><div class="item-count">5</div></div><div class="webinfo-item"><div class="item-name">Run time :</div><div class="item-count" id="runtimeshow" data-publishDate="2021-06-06T16:00:00.000Z"></div></div><div class="webinfo-item"><div class="item-name">UV :</div><div class="item-count" id="busuanzi_value_site_uv"></div></div><div class="webinfo-item"><div class="item-name">PV :</div><div class="item-count" id="busuanzi_value_site_pv"></div></div><div class="webinfo-item"><div class="item-name">Last Push :</div><div class="item-count" id="last-push-date" data-lastPushDate="2021-12-17T06:30:04.293Z"></div></div></div></div></div></div></main><footer id="footer" style="background: transparent"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2021 By 星野之鹰</div><div class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="font-plus" type="button" title="Increase font size"><i class="fas fa-plus"></i></button><button id="font-minus" type="button" title="Decrease font size"><i class="fas fa-minus"></i></button><button id="translateLink" type="button" title="Toggle Between Traditional Chinese And Simplified Chinese">简</button><button id="darkmode" type="button" title="Toggle Between Light And Dark Mode"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="Toggle between single-column and double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="Setting"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="Back To Top"><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script>var preloader = {
+  endLoading: () => {
+    document.body.style.overflow = 'auto';
+    document.getElementById('loading-box').classList.add("loaded")
+  },
+  initLoading: () => {
+    document.body.style.overflow = '';
+    document.getElementById('loading-box').classList.remove("loaded")
+
+  }
+}
+window.addEventListener('load',preloader.endLoading())</script><div class="js-pjax"><script>function subtitleType () {
+  if (true) { 
+    var typed = new Typed("#subtitle", {
+      strings: "前程似锦&#44;未来可期&#44;万事胜意&#44;祝我也祝你,无私奉献不是天方夜谭&#44;有时候&#44;我们也可以做到,认识自己的无知是认识世界的最可靠的方法,世界上最宝贵的财富就是时间&#44;所以不要浪费一分一秒,学习这件事&#44;不在乎有没有人教你&#44;最重要的是在于你自己有没有觉悟和恒心".split(","),
+      startDelay: 300,
+      typeSpeed: 150,
+      loop: true,
+      backSpeed: 50
+    })
+  } else {
+    document.getElementById("subtitle").innerHTML = '前程似锦&#44;未来可期&#44;万事胜意&#44;祝我也祝你'
+  }
+}
+
+if (true) {
+  if (typeof Typed === 'function') {
+    subtitleType()
+  } else {
+    getScript('https://cdn.jsdelivr.net/npm/typed.js/lib/typed.min.js').then(subtitleType)
+  }
+} else {
+  subtitleType()
+}</script></div><script src="/js/smooth-scrolling.js"></script><script defer="defer" id="fluttering_ribbon" mobile="false" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/canvas-fluttering-ribbon.min.js"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
